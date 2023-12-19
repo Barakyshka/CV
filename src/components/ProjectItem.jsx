@@ -10,7 +10,8 @@ function ProjectItem({ name, githubLink, description, technologies }) {
           href={githubLink}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-blue-500 hover:underline ml-2"
+          className="text-blue-500 hover:underline truncate"
+          style={{ maxWidth: '70%' }}
         >
           {githubLink}
         </a>
