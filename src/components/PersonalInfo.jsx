@@ -66,30 +66,9 @@ function PersonalInfo() {
 export default React.memo(PersonalInfo);*/
 import React from 'react';
 
-function ProjectItem({ name, githubLink, description, technologies }) {
-  return (
-    <div className="bg-white p-4 rounded-md mb-4">
-      <h3 className="text-xl font-bold mb-2">{name}</h3>
-      <div className="flex flex-col mb-2">
-        <span className="font-bold mb-1">GitHub:</span>
-        <a
-          href={githubLink}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-blue-500 hover:underline"
-        >
-          {githubLink}
-        </a>
-      </div>
-      <p className="text-sm mb-2">{description}</p>
-      <p className="text-sm">{technologies}</p>
-    </div>
-  );
-}
-
 function PersonalInfo() {
   return (
-    <div className="w-full md:w-1/2 lg:w-1/3 mt-8 md:mt-0 mx-auto flex flex-col gap-4 rounded-md">
+    <div className="w-full mt-8 mx-auto flex flex-col gap-4 rounded-md p-4 md:w-1/2 lg:w-1/3">
       <div className="flex items-center">
         <img
           src="/images/geo.png"
@@ -154,5 +133,4 @@ function PersonalInfo() {
   );
 }
 
-export { ProjectItem, PersonalInfo };
-
+export default React.memo(PersonalInfo);
