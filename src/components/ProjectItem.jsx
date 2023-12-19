@@ -22,3 +22,4 @@ function ProjectItem({ name, githubLink, description, technologies }) {
 }
 
 export default React.memo(ProjectItem);
+
