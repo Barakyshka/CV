@@ -11,6 +11,19 @@ function AuthorInfo() {
         <div className="text-xl mt-2 ml-4 mb-4">
           <p>Student of BSU, Faculty of Mechanics and Mathematics.</p>
         </div>
+          <div className="bg-gray-200 p-4 rounded-md mt-4">
+          <h2 className="text-2xl font-bold mb-4">Autobiography</h2>
+          <p><strong>Date of Birth:</strong> 2005</p>
+          <p><strong>Place of Birth:</strong> Vitebsk, Belarus</p>
+          <p><strong>Year of Study:</strong> Second year</p>
+          <p><strong>Education:</strong> I am pursuing a high-quality education in mathematics, mechanics, systems analysis, and information technology at Mech-Math BSU. My studies cover a wide range of topics, including advanced mathematics and programming languages.</p>
+          <p><strong>Programming Languages:</strong></p>
+          <ul>
+            <li><strong>JavaScript (JS):</strong> I am actively learning web programming and creating interactive websites using JS.</li>
+            <li><strong>C++ and C#:</strong> These languages are also part of my curriculum, allowing me to develop applications and solve complex problems.</li>
+            <li><strong>Freelancing with C#:</strong> In my free time, I engage in freelance work, developing software solutions using C#. This practical experience helps me apply my knowledge and gain valuable skills.</li>
+          </ul>
+        </div>
         <div className="bg-gray-200 p-4 rounded-md">
           <h2 className="text-2xl font-bold mb-4">Personal projects</h2>
           {PROJECTS.map((project) => (
