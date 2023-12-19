@@ -4,7 +4,7 @@ import AuthorInfo from './components/AuthorInfo';
 function App() {
   return (
     
-    <div className="container mx-auto p-4">
+    <div class="container mx-auto p-2 md:p-4 lg:p-8">
       <AuthorInfo />
     </div>
   );
