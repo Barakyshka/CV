@@ -1,3 +1,5 @@
+import React from 'react';
+
 function PersonalInfo() {
   return (
     <div className="w-full md:w-1/3 mt-8 md:mt-0 mx-auto flex flex-col gap-4 rounded-md">
