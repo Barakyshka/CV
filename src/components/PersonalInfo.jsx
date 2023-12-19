@@ -5,7 +5,7 @@ function PersonalInfo() {
     <div className="w-full md:w-1/3 mt-8 md:mt-0 mx-auto flex flex-col gap-4 rounded-md">
       <div className="flex items-center">
         <img
-          src="./src/images/geo.png"
+          src="/images/geo.png"
           alt="Telegram icon"
           className="inline-block align-text-bottom"
           style={{ height: '1.5em', width: '1.5em' }}
@@ -29,7 +29,7 @@ function PersonalInfo() {
         <li>
           <a href="mailto:ibarakyshkai@gmail.com" className="text-blue-500">
             <img
-              src="./src/images/em.png"
+              src="/images/em.png"
               alt="Telegram icon"
               className="inline-block align-text-bottom"
               style={{ height: '1.2em', width: '1.2em' }}
@@ -40,7 +40,7 @@ function PersonalInfo() {
         <li>
           <a href="https://t.me/barakyshka" className="text-blue-500">
             <img
-              src="./src/images/tg.png"
+              src="/images/tg.png"
               alt="Telegram icon"
               className="inline-block align-text-bottom"
               style={{ height: '1.2em', width: '1.2em' }}
