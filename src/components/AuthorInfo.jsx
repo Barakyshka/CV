@@ -11,7 +11,7 @@ function AuthorInfo() {
         <div className="text-xl mt-2 ml-4 mb-4">
           <p>Student of BSU, Faculty of Mechanics and Mathematics.</p>
         </div>
-          <div className="bg-gray-200 p-4 rounded-md mt-4">
+          <div className="bg-gray-200 p-4 rounded-md">
           <h2 className="text-2xl font-bold mb-4">Autobiography</h2>
           <p><strong>Date of Birth:</strong> 2005</p>
           <p><strong>Place of Birth:</strong> Vitebsk, Belarus</p>
