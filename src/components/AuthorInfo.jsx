@@ -5,7 +5,7 @@ import PersonalInfo from './PersonalInfo';
 
 function AuthorInfo() {
   return (
-    <div className="bg-gray-100 p-8 flex flex-col md:flex-row mb-8 rounded-md">
+    <div className="bg-gray-100 p-4 md:p-8 flex flex-col md:flex-row mb-8 rounded-md">
       <div className="w-full md:w-2/3 md:mr-8">
         <h2 className="text-4xl font-bold mb-4 ml-4">GARKUSHA EVGENII</h2>
         <div className="text-xl mt-2 ml-4 mb-4">
